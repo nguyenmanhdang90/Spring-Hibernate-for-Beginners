@@ -3,5 +3,4 @@
 .sonarlint
 .setting
 .settings
-*.classpath
 bin
