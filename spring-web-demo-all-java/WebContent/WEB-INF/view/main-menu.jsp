@@ -4,7 +4,10 @@
 <body>
 
 <h2>Spring MVC Demo - Home Page</h2>
-<h1>Nguyen Thi Hong Dieu</h1>
+
+<hr>
+
+<a href="showForm">Hello World form</a>
 
 </body>
 
