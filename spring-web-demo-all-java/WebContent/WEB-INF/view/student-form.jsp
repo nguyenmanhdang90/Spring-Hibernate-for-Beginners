@@ -11,10 +11,30 @@
 
 	<form:form method="GET" action="processForm" modelAttribute="student">
 	First name: <form:input path="firstName" />
-	<br />
+		<br />
+		<br />
 	Last name: <form:input path="lastName" />
-	<br />
-	<input type="submit" value="Submit" />
+		<br />
+		<br />
+	Country: 
+	<form:select path="country">
+			<form:options items="${student.countryOptions}" />
+		</form:select>
+
+		<br>
+		<br>
+	Favorite Programming Languages
+	<br>
+		<br>
+		<form:radiobuttons path="favoriteLanguage"
+			items="${student.favoriteLanguageOptions}" />
+		<br>
+		<br>
+		
+		Operating Systems:
+		<form:checkboxes items="${student.operatingSystemsOptions}" path="operatingSystems"/>
+		<br><br>
+		<input type="submit" value="Submit" />
 	</form:form>
 
 </body>
