@@ -5,3 +5,4 @@
 bin
 build
 *.DS_Store
+/validator/hibernate-validator-5.2.4.Final
