@@ -12,6 +12,10 @@
 firtName: ${customer.firstName}
 <br>
 lastName: ${customer.lastName}
+<br>
+freePasses: ${customer.freePasses}
+<br>
+postalCode: ${customer.postalCode}
 
 </body>
 </html>
